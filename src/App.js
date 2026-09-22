@@ -1,16 +1,9 @@
 
 
-import './App.css';
-import Card from './components/Card';
-import { QuestionProvider } from './contexts/QuestionContexts';
+import CardDeckPrototype from './prototype/CardDeckPrototype';
 
 function App() {
-  return (
-    <QuestionProvider>
-      
-      <Card />
-    </QuestionProvider>
-  );
+  return <CardDeckPrototype />;
 }
 
 export default App;
